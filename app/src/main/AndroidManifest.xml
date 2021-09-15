@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Week12ndMission">
+        <activity
+            android:name=".DetailActivity"
+            android:exported="true" />
+        <activity android:name=".TambahUser" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
